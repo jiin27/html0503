@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>html의 한계</title>
+<link rel="stylesheet" href="my.css">
+</head>
+<body>
+	<!--
+	주석: 프로그램에 의해 무시되는 영역
+	따라서 본인이 원하는 설명 등을 작성하기에 좋다
+	결국 HTML은 디자인 효과를 내기 위한 기술이 아닌 문서일 뿐이다.
+	따라서 폰트 크기 등에 한계가 있다.
+
+	하지만, 사용자들의 눈높이가 높기 때문에 html을 디자인적으로 보완할 필요가 있었고.
+	이러한 목적으로 나온 기술이 CSS이다.
+	CSS(Cascading Style Sheet)는 W3C에서 표준으로 정한 기술이다. 
+	따라서 모든 웹브라우저 제품이 CSS를 이해한다.
+
+	참고) 웹퍼블리셔 교육과정에서는 CSS교육에 99% 시간을 할애한다.
+	즉 웹퍼블리셔는 CSS전문가다.
+	-->
+	나는 <font color="skyblue" style="font-size:150px">개발자다</font>
+	 
+	 <br>
+	<!--
+		CSS의 적용방식 중 알래와 같이 해당 태그 요소에 직접 명시하는 방법을 가리켜 인라인 방식이라 한다.
+		이 방식의 단점은 적용대상이 많을 경우 유지보수성이 떨어진다는 것이다. 즉 반복 작업이 많아진다.
+		해결책) <style> 태그에서 명시하는 내부 css 방식으로 처리한다.
+	-->
+	<button>버튼</button> 
+	<button>버튼</button> 
+	<button id="bt3">버튼</button> 
+	<button>버튼</button> 
+	<button>버튼</button> 
+	<button>버튼</button>
+	<button>버튼</button> 
+	<button>버튼</button> 
+	<button>버튼</button> 
+	<button>버튼</button>
+</body>
+</html>
